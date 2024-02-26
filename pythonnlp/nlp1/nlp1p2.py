@@ -29,8 +29,8 @@ def readTextFiles(filepath):
                     highSimilarityDict[token] = wordOfInterest.similarity(token)
         print(highSimilarityDict)
 
-    for file in os.listdir(CollPath):
-        if file.endswith(".txt"):
-            filepath = f"{CollPath}/{file}"
-        print(filepath)
-        readTextFiles(filepath)
+for file in os.listdir(CollPath):
+    if file.endswith(".txt"):
+        filepath = f"{CollPath}/{file}"
+    print(filepath)
+    readTextFiles(filepath)
