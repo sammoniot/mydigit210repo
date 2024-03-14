@@ -1,0 +1,2 @@
+I used the 1948-12-29_abm_tei.xml to look for regex expressions. I used the following expressions:
+"\D,\S,\d" and a few others. The only ones that returned results were "(a|b)" and "/d" They were one "a" that was in a link and the number 1 that I believe was also in a link.
